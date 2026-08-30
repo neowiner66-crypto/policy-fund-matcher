@@ -1,0 +1,126 @@
+{
+  "note": "예시 데이터입니다. 실제 서비스 전에는 각 기관 공식 공고의 최신 한도·금리·접수기간으로 교체하세요.",
+  "funds": [
+    {
+      "id": "kosmes_growth",
+      "name": "신성장기반자금 (제조현장스마트화)",
+      "institution": "중소기업진흥공단",
+      "type": "융자",
+      "kind": "policy_fund",
+      "eligible_purposes": [
+        "시설",
+        "R&D"
+      ],
+      "min_years": 7,
+      "region_required": false,
+      "relevant_categories": [
+        "그린/스마트",
+        "기술"
+      ],
+      "base_score": 40,
+      "purpose_bonus": 25,
+      "years_bonus": 15,
+      "category_weight": 20,
+      "limit_text": "기업당 60억원 이내* (직접·대리대출 + 이차보전)",
+      "receive_text": "중진공 지역본부 · 온라인(SIMS)",
+      "note_text": "지방소재·정책우대 등에 따라 우대한도가 별도 적용될 수 있음"
+    },
+    {
+      "id": "local_gov",
+      "name": "중소기업육성자금 (이차보전)",
+      "institution": "{region} (지자체)",
+      "type": "융자(지자체)",
+      "kind": "policy_fund",
+      "eligible_purposes": [
+        "운전",
+        "시설"
+      ],
+      "min_years": 0,
+      "region_required": true,
+      "relevant_categories": [
+        "정책우대"
+      ],
+      "base_score": 30,
+      "purpose_bonus": 20,
+      "years_bonus": 0,
+      "region_bonus": 20,
+      "category_weight": 20,
+      "limit_text": "지자체 공고별 상이 (협약은행 대출 + 이차보전)",
+      "receive_text": "협약은행 영업점 · 지자체 기업지원과",
+      "note_text": "지역별 조건이 크게 다르며 예산 소진 시 조기 마감될 수 있음"
+    },
+    {
+      "id": "kodit",
+      "name": "신용보증서 담보부 대출",
+      "institution": "신용보증기금",
+      "type": "보증",
+      "kind": "policy_fund",
+      "eligible_purposes": [
+        "운전",
+        "시설",
+        "사업화"
+      ],
+      "min_years": 0,
+      "region_required": false,
+      "relevant_categories": [
+        "경영",
+        "투자/수출"
+      ],
+      "base_score": 25,
+      "purpose_bonus": 15,
+      "years_bonus": 0,
+      "category_weight": 20,
+      "debt_bonus": 15,
+      "limit_text": "신용·사업성 심사 결과에 따라 결정",
+      "receive_text": "신용보증기금 영업점",
+      "note_text": "담보 여력은 부족하나 매출·사업성이 있는 기업에 적합"
+    },
+    {
+      "id": "kibo",
+      "name": "기술보증서 대출",
+      "institution": "기술보증기금",
+      "type": "보증",
+      "kind": "policy_fund",
+      "eligible_purposes": [
+        "R&D",
+        "시설",
+        "사업화"
+      ],
+      "min_years": 0,
+      "region_required": false,
+      "relevant_categories": [
+        "기술",
+        "창업"
+      ],
+      "base_score": 15,
+      "purpose_bonus": 10,
+      "years_bonus": 0,
+      "category_weight": 35,
+      "limit_text": "기술성·사업성 평가 결과에 따라 결정",
+      "receive_text": "기술보증기금 디지털지점 · 영업점",
+      "note_text": "재무실적이 짧아도 기술력·사업성 중심으로 평가"
+    },
+    {
+      "id": "rebound",
+      "name": "재도약지원자금",
+      "institution": "중소기업진흥공단",
+      "type": "융자",
+      "kind": "policy_fund",
+      "eligible_purposes": [
+        "위기"
+      ],
+      "min_years": 0,
+      "region_required": false,
+      "relevant_categories": [
+        "재기"
+      ],
+      "base_score": 10,
+      "purpose_bonus": 35,
+      "years_bonus": 0,
+      "category_weight": 25,
+      "limit_text": "사업전환·구조개선 심사 결과에 따라 결정",
+      "receive_text": "중진공 지역본부",
+      "note_text": "매출 감소·적자·차입 증가가 동시에 나타날 때 우선 검토"
+    }
+  ]
+}
